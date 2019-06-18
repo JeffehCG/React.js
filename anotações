@@ -1,0 +1,27 @@
+Instalando o react
+npm i -g create-react-app
+
+Criando o projeto
+create-react-app NomeProjeto
+
+Executando projeto
+npm start
+
+Projeto CRUD
+
+Backend --------------------------------------------------------------------------
+instlando Json-server
+npm i --save json-server@0.13.0 -E (-E especifica para salvar essa dependencia no package.json)
+
+Arquivo db.json esta servindo como o banco de dados
+
+no package.json foi criado o script start para iniciar o servidor backend (na porta 3001, e a propriedade watch monitora os arquivos criados)
+
+Frontend--------------------------------------------------------------------------
+"axios": "0.18.0", (Para requisições Ajax)
+"bootstrap": "4.1.1", (Design)
+"fontawesome": "4.7.0", (Fonts)
+"react-router": "4.2.0", (Para navegar entre multiplos componentes)
+
+----------- Lembrando ------------------- Importante --------------
+Para executar o projeto é preciso startar os dois servidores (backend e frontend) um em cada terminal diferente (npm start)
